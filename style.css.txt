@@ -1,0 +1,28 @@
+/* Allgemeine Seiteinstellungen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #87ceeb; /* Himmelblau */
+    font-family: Arial, sans-serif;
+}
+
+/* Startmenü */
+#menu {
+    text-align: center;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Spielfläche */
+#gameCanvas {
+    display: none; /* Startet unsichtbar, wird beim Start sichtbar */
+    background-color: #95c9b7; /* Grasgrün */
+    border: 2px solid #000;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Pixel Runner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Startmenü -->
+    <div id="menu">
+        <h1>Retro Pixel Runner</h1>
+        <button id="startButton">Spiel starten</button>
+    </div>
+    
+    <!-- Canvas für das Spiel -->
+    <canvas id="gameCanvas"></canvas>
+
+    <script src="game.js"></script>
+</body>
+</html>
